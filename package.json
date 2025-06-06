@@ -1,0 +1,38 @@
+{
+  "name": "ikea-web-scraper",
+  "version": "1.0.0",
+  "description": "IKEA web scraper with anti-bot measures and pagination handling for technical assessment",
+  "main": "ikeaScrap.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ikeaScrap.js",
+    "test": "node ikeaScrap.js",
+    "dev": "node --inspect ikeaScrap.js"
+  },
+  "keywords": [
+    "web-scraping",
+    "puppeteer", 
+    "ikea",
+    "e-commerce",
+    "anti-bot",
+    "pagination",
+    "javascript"
+  ],
+  "author": "Pedro Manga",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeterManga/ScrapTest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeterManga/ScrapTest/issues"
+  },
+  "homepage": "https://github.com/PeterManga/ScrapTest#readme"
+}
